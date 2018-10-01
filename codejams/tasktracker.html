@@ -19,24 +19,21 @@
   </script>
 </head>
     
-<body>
+<body onload="setVals()">
     <div class="container">
     <h1>Keep on Task</h1>
     <h4>Enter your tasks below:</h2>
     <input placeholder="Enter new task here" style="height: 38px; padding: 0 30px;border-radius: 4px; border: 1px solid #bbb" id="userValue">  </input>
-    <button type="submit" onclick="newElement()">Add</button>
+    <button type="submit" onclick="newElement()" class="but">Add</button>
     
     <h4>Current Tasks:</h2>
     <ul id="list" class="List">
-        <li>Clean my apartment</li>
-        <li>Practice codecademy</li>
-        <li>Learn to meditate(?)</li>
     </ul>
     
     <h4>Finished Tasks:</h4>
     <ul id="finishedList" class="ListTwo">
     </ul>
     </div>
-<script src="newElement.js"></script>
+    <script src="newElement.js"></script>
 </body>
 </html>
