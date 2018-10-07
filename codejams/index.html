@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Task Tracker</title>
+    <meta name="description" content="Task Tracker">
+    <meta name="author" content="Mitch-McK">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="tasktracker/css/normalize.css">
+    <link rel="stylesheet" href="tasktracker/css/skeleton.css">
+    <link rel="stylesheet" href="tasktracker/css/myTerribleCss.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50615240-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-50615240-5');
+  </script>-->
+</head>
+
+<body onload="setVals()">
+
+    <!-- This first section is for the page header/title -->
+    <div class="section" id="header">
+        <div class="container">
+            <div class="row">
+                <h3>Current Task</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- This second section is for the timer/current task -->
+    <div class="section" id="timerSection">
+        <div class="container">
+            <div class="row">
+                <div class="one-half column">
+                    <input placeholder="30:00" class="userValues" id="userTime">
+                </div>
+                <div class="one-half column but">
+                    <button type="Begin" onclick="startTimer()">Start</button>
+                    <button type="End" onclick="endTimer()">Stop</button>
+                </div>
+            </div>
+            <!-- Now for the task -->
+            <div class="row">
+            
+            
+            </div>            
+        </div>
+    </div>
+
+
+    <div class="spacer">
+    </div>
+
+
+    <!-- This third section is for the task list -->
+    <hr style="width: 80%">
+    <div class="section" id="taskSection">
+        <div class="container">
+            <div class="row">
+                <h3>Task Lists</h3>
+            </div>
+            <div class="row">
+                <div class="one-half column">
+                    <input placeholder="New Task" id="userValue" class="userValues">
+                </div>
+                <div class="one-half column but">
+                    <button type="submit" onclick="newElement()">Add</button>
+                </div>
+            </div>
+
+            <div class="spacer">
+            </div>
+
+
+            <div class="row">
+                <div class="one-half column">
+                    <h4>Current Tasks:</h4>
+                    <ul id="list" class="List">
+                    </ul>
+                </div>
+                <div class="one-half column">
+                    <h4>Finished Tasks:</h4>
+                    <ul id="finishedList" class="ListTwo">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="tasktracker/newElement.js"></script>
+    <script src="tasktracker/timer.js"></script>
+</body>
+
+</html>
