@@ -1,0 +1,40 @@
+#gameCanvas {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2.5px 5px #777;
+}
+
+#score {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    text-align: center;
+    font-family: 'Antic Slab', serif;
+    font-size: 2em;
+    transform: translate(-50%, -50%);
+}
+
+#restart {
+    border: 1px;
+    font-size: 2em;
+    border-radius: 4px;
+    font-family: 'Antic Slab', serif;
+    color: #777;
+    background-color: lightgrey;
+    box-shadow: 1px 1px 1px 1px #777;
+}
+
+#buttonBox {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 30px;
+}
+
+html {
+    background-color: lightgrey;
+}
