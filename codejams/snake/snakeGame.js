@@ -175,6 +175,7 @@ function restart() {
     score = 0;
     dx = 10;
     dy = 0;
+    document.getElementById('score').innerHTML = score;
     drawSnake();
     main();
 }
