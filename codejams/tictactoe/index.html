@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Tic-Tac-Toe</h1>
+    </div>
+    <table>
+        <tr>
+            <td onClick='changeTeam(event)'></td>
+            <td onClick='changeTeam(event)'></td>
+            <td onClick='changeTeam(event)'></td>
+        </tr>
+
+        <tr>
+            <td onClick='changeTeam(event)'></td>
+            <td onClick='changeTeam(event)'></td>
+            <td onClick='changeTeam(event)'></td>
+        </tr>
+
+        <tr>
+            <td onClick='changeTeam(event)'></td>
+            <td onClick='changeTeam(event)'></td>
+            <td onClick='changeTeam(event)'></td>
+        </tr>
+    </table>
+    <div id='clear'>
+        <button onClick='clearBoard()' id='clearButton'>Clear Board</button>
+    </div>
+    <script>
+        function changeTeam(event) {
+            let team = event.target.innerHTML;
+            if (team == '') {
+                event.target.innerHTML = 'X';
+            } else if (team == 'X') {
+                event.target.innerHTML = 'O';
+            } else if (team == 'O') {
+                event.target.innerHTML = '';
+            }
+        };
+        
+        function clearBoard() {
+            let tds = document.getElementsByTagName('TD');
+            console.log(tds);
+            for(i = 0; i < tds.length; i++){
+                tds[i].innerHTML = '';
+            }
+        }
+    </script>
+</body>
+
+</html>
