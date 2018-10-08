@@ -202,6 +202,7 @@ function restart() {
         },
     ];
     score = 0;
+    document.getElementById('score').innerHTML = score;
     dx = 10;
     dy = 0;
     drawSnake();
