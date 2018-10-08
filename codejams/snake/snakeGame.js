@@ -60,7 +60,10 @@ function changeDirection(e) {
     const RIGHT_KEY = 39;
     const UP_KEY = 38;
     const DOWN_KEY = 40;
-
+    
+    if(changingDirection) return;
+    
+    changingDirection = true;
     const keyPressed = e.keyCode;
     const goingUp = dy === -10;
     const goingDown = dy === 10;
@@ -116,6 +119,7 @@ createFood();
 function main() {
     if (didEndGame()) return;
     setTimeout(function onTick() {
+        changingDirection = false;
         clearCanvas();
         drawFood();
         advanceSnake();
@@ -149,9 +153,14 @@ function drawFood() {
 }
 
 function didEndGame() {
+    let currentHS = document.getElementById('highScore').innerHTML;
+    let currentScore = document.getElementById('score').innerHTML;
     for (let i = 4; i < snake.length; i++) {
         const didCollide = snake[i].x === snake[0].x && snake[i].y === snake[0].y;
         if (didCollide) {
+            if (currentHS < currentScore) {
+                document.getElementById('highScore').innerHTML = currentScore;
+            }
             return true;
         }
     }
@@ -160,22 +169,41 @@ function didEndGame() {
     const hitRightWall = snake[0].x > gameCanvas.width - 10;
     const hitTopWall = snake[0].y < 0;
     const hitBottomWall = snake[0].y > gameCanvas.height - 10;
-    return hitLeftWall || hitRightWall || hitTopWall || hitBottomWall;
 
+    if (hitLeftWall || hitRightWall || hitTopWall || hitBottomWall) {
+        if (currentHS < currentScore) {
+            document.getElementById('highScore').innerHTML = currentScore;
+        }
+        return true;
+    }
 }
 
 function restart() {
     snake = [
-        {x: 150, y: 150},
-        {x: 140, y: 150},
-        {x: 130, y: 150},
-        {x: 120, y: 150},
-        {x: 110, y: 150},
+        {
+            x: 150,
+            y: 150
+        },
+        {
+            x: 140,
+            y: 150
+        },
+        {
+            x: 130,
+            y: 150
+        },
+        {
+            x: 120,
+            y: 150
+        },
+        {
+            x: 110,
+            y: 150
+        },
     ];
     score = 0;
     dx = 10;
     dy = 0;
-    document.getElementById('score').innerHTML = score;
     drawSnake();
     main();
 }

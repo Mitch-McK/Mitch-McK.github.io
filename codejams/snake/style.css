@@ -1,18 +1,28 @@
 #gameCanvas {
     position: absolute;
     left: 50%;
-    top: 35%;
+    top: 37%;
     transform: translate(-50%, -50%);
     box-shadow: 2.5px 5px #777;
 }
 
-#score {
+#scoreTitle {
     position: absolute;
     top: 5%;
     left: 50%;
     text-align: center;
     font-family: 'Antic Slab', serif;
     font-size: 2em;
+    transform: translate(-50%, -50%);
+}
+
+#highScoreTitle {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    text-align: center;
+    font-family: 'Antic Slab', serif;
+    font-size: 1.3em;
     transform: translate(-50%, -50%);
 }
 
