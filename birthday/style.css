@@ -1,0 +1,86 @@
+/* style.css */
+html, body {
+  height: 90%;
+  overflow: hidden;
+}
+
+body {
+  margin: 5em;
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  /* This centers our sketch vertically. */
+  align-items: center;
+  white-space: pre-wrap;
+}
+
+.t1 {
+  font-weight: 200;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: black;
+}
+
+.t1 .word {
+  /* display: inline-block; */
+  overflow: hidden;
+}
+
+.t1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.b1 {
+  position: absolute;
+  width: 30%;
+  top: 50%;
+  left: 35%;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  /* display:inline-block; */
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.b1:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+
+.b2 {
+  position: absolute;
+  width: 30%;
+  bottom: 5%;
+  left: 35%;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  /* display:inline-block; */
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.b2:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50615240-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-50615240-5');
+  </script>
+</head>
+
+<body>
+    <div id="scoreTitle">Current Score: <span id="score">0</span></div>
+    
+    <div id="buttonBox"><button id="restart" onclick="restart()">New Game</button></div>
+    <div id="highScoreTitle">High Score: <span id="highScore">0</span></div>
+    
+    <canvas id="gameCanvas" width="300" height="300"></canvas>
+    <script src="snakeGame.js"></script>
+</body>
+</html>
