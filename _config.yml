@@ -6,12 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Mitch-McK
+title: Mitchell McKinnon
 email: mtmckinnon10@gmail.com
-description: >
-  This is the personal site for Mitch-McK. Take a look over any of my 
-  current projects or articles as I post them here. I'm always open to 
-  feedback and ideas, so don't be a stranger!
+description: A personal site for Mitch McKinnon. Not much to see here, but get in touch!
+google_analytics: G-744QEWNGV0
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mitchellmckinnon.com" # the base hostname & protocol for your site
 twitter_username: Mitch_McK
