@@ -1,10 +1,8 @@
 ---
-layout: page
-title: About
+layout: post
+title: "About"
 permalink: /about/
 ---
-
-## About
 
 ## About Mitchell McKinnon
 

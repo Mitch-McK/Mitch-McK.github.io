@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Projects
+layout: post
+title: "Projects"
 permalink: /projects/
 ---
 
