@@ -8,14 +8,14 @@ layout: default
   <p>You’ve arrived at Mitchell McKinnon’s home page. I’m not quite sure how you arrived here, but glad that you made
     it.</p>
 
+  <h2>Posts</h2>
   <ul>
     {% for post in site.posts %}
     <li>
-      <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-
       <h2>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
+      <span>{{ post.date | date: "%b %-d, %Y" }}</span>
     </li>
     {% endfor %}
   </ul>
