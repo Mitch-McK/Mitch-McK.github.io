@@ -1,8 +1,13 @@
 ---
 layout: page
-title: "Projects"
+title: Projects
+permalink: /projects/
 ---
 
-## Projects
+## Work Projects
+
+A few items I've contributed to.
+
+## Side Projects
 
 From this page, I'll link to a few projects I've worked on.
