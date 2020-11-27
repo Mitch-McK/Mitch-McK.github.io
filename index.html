@@ -22,10 +22,10 @@ layout: default
 
   <h2>Projects</h2>
   <ul>
-    {% for project in site.projects %}
+    {% for page in site.projects %}
     <li style="list-style-type: none">
       <h2>
-        <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       </h2>
     </li>
     {% endfor %}
