@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Fourth Post"
+date: 2020-11-19 21:00:00 +0000
+categories: site update
+---
+
+I'm currently making my way through the book, [The ABCs of How We Learn](https://smile.amazon.com/ABCs-How-Learn-Scientifically-Approaches-ebook/dp/B016CAJLBA) and helping to a coordinate a small reading group. We'll be covering ~2 chapters per week and I'll post check-ins along the way with insights.

@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Third Post"
+date: 2020-09-12 21:00:00 +0000
+categories: site update
+---
+
+It's only taken, what, 2 years, to start with a second post? Hold on while I get a hang of setting this site up again. It's relatively barebones and I'd like to keep it that way.
+
+In the meantime, check out some out a few interesting sites:
+
+- [Center for Humane Technology](https://www.humanetech.com/)
+- [The Institute for Ethical AI & Machine Learning](https://ethical.institute/)
+
+And a few books to keep you busy:
+
+- [Aurora](https://www.goodreads.com/book/show/23197269-aurora)
+- [Interface](https://www.goodreads.com/book/show/828.Interface)
