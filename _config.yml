@@ -19,3 +19,4 @@ github_username: Mitch-McK
 
 # Build settings
 markdown: kramdown
+remote-theme: poole/poole
