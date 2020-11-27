@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "First Post"
-date:   2018-10-07 21:00:00 +0000
+title: "First Post"
+date: 2018-10-07 21:00:00 +0000
 categories: site update
 ---
-This is my first post to this blog site. Initially, I set this up as part of a tutorial in order to learn something new and occupy my time. Revisiting this half a year later, the thought crossed my mind that it might be a good opportunity to start recording a bit of the work I'm doing and show off a bit of my coding prowess (a bit of sarcasm here). 
-
-I'm assisting with a community coding project at the moment, which has me writing more small programs. I'll try to update here when possible and most are found in this repository.
+This is my first post to this blog site.
 
 {% highlight javascript %}
-let example = 'word';
-function helloWord() {
-  example = 'hello, world!';
+let example = 'world';
+function hellowWorld() {
+    example = 'hello, world!';
 }
 {% endhighlight %}
