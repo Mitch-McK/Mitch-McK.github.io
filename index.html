@@ -20,4 +20,15 @@ layout: default
     {% endfor %}
   </ul>
 
+  <h2>Projects</h2>
+  <ul>
+    {% for project in site.projects %}
+    <li style="list-style-type: none">
+      <h2>
+        <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+      </h2>
+    </li>
+    {% endfor %}
+  </ul>
+
 </div>
