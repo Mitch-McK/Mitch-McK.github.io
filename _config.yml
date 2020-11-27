@@ -9,6 +9,8 @@
 title: Mitchell McKinnon
 email: mtmckinnon10@gmail.com
 description: A personal site for Mitch McKinnon. Not much to see here, but get in touch!
+
+logo: assets/img/logo.jpeg
 google_analytics: G-744QEWNGV0
 
 baseurl: "" # the subpath of your site, e.g. /blog
