@@ -21,3 +21,5 @@ github_username: Mitch-McK
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal
+
+test: "This is dynamiccccccc"
