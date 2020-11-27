@@ -13,9 +13,9 @@ description: >
   current projects or articles as I post them here. I'm always open to 
   feedback and ideas, so don't be a stranger!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://mitchellmckinnon.com" # the base hostname & protocol for your site
 twitter_username: Mitch_McK
-github_username:  Mitch-McK
+github_username: Mitch-McK
 
 # Build settings
 markdown: kramdown
