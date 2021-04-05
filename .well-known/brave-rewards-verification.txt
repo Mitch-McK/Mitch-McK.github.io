@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mitchellmckinnon.com
+Token: 43464b981136f5c88250914a6d6ca9fcfe803bdc92786694bfb85ed35a91c179
