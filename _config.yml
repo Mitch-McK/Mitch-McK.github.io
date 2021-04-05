@@ -21,3 +21,6 @@ github_username: Mitch-McK
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal
+
+# Include the .well-known directory
+include: [".well-known"]
